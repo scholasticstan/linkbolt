@@ -1,5 +1,7 @@
 # LinkBolt
 
+Live: https://linkbolt-jet.vercel.app
+
 Short links with honest analytics. Custom slugs, click stats that separate humans from bots, QR codes, expiry, and a JSON API with per-key rate limits.
 
 Built with Next.js 16 (App Router, server actions), TypeScript, Postgres via Drizzle, Tailwind v4, Vitest. No client-side state library, no tracking pixels, no IP addresses stored.
