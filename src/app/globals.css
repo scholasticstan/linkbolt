@@ -16,5 +16,8 @@
 }
 
 html { color-scheme: dark; }
+/* Tailwind v4 removed the default pointer on buttons; restore it for every interactive element. */
+a[href], button, [role='button'], summary, label[for], select, input[type='checkbox'], input[type='radio'], input[type='submit'] { cursor: pointer; }
+button:disabled, [aria-disabled='true'] { cursor: not-allowed; }
 body { @apply bg-bg text-ink antialiased; }
 ::selection { background: color-mix(in srgb, var(--color-accent) 40%, transparent); }
